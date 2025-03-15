@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Work-sans;
+    src: url(../Fonts/WorkSans-VariableFont_wght.ttf);
+}
+h1,p{
+    font-family: Work-sans;
+}
+a{
+    text-decoration: none;
+    
+}
+#header{
+    position:fixed;
+}
+
+.nav{
+    padding-top: 20px;
+}
+.nav ul li{
+    list-style-type: none;
+    padding: 30px 20px;
+}
+.nav ul li a{
+    
+    display: block;
+    color: #3B3C4A;
+    font-family:Work-sans;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.button-wrapper input{
+    background-color: #F4F4F5;
+    height: 36px;
+    width: 100px;
+}
+.theme-change div{
+    width: 80px;
+    height: 35px;
+    background-color: #c2c2c2;
+    border-radius: 25px;
+}
+.theme-change div img{
+    height: 30px;
+    width: auto;
+    border-radius: 50%;
+}
+.theme-change{
+    padding-left: 30px;
+}
+
+.page-title{
+    height: 100px;
+
+}
+.page-title h1{
+
+    font-size: 30px;
+    line-height: 36px;
+}
+.hero img{
+    width: 100%;
+}
+.Mycard .card-title{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+   color: #4B6BFB;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 2px ;
+    background-color: #4B6BFB0D;
+    margin-top: 5px;
+}
+.Mycard .description{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #181A2A;
+    display: inline-block;
+    margin-top: 5px;
+}
+.Mycard{
+    width: 100%;
+}
+.collumn{
+    width: 32%;
+}
+.Mycard .card-image{
+    width: 100%;
+}
+.card-ftr p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #97989F;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-top: 8px;  
+}
+.card-ftr .name{
+    padding-right: 20px;
+}
+.collumn{
+    padding: 20px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    
+}
+.all-card{
+    margin-top: 48px;
+}
+.load-more{
+    margin-top: 36px;
+   
+}
+.load-more p{
+    border: 1px solid rgba(192, 192, 192, 0.397);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 20px;
+   
+}
+.search-btn{
+    margin-left: -35px;
+    z-index: 20;
+}
