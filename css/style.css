@@ -5,8 +5,9 @@
 h1,p{
     font-family: Work-sans;
 }
-a{
+a,li{
     text-decoration: none;
+    list-style-type: none;
     
 }
 #header{
@@ -126,4 +127,43 @@ a{
 .search-btn{
     margin-left: -35px;
     z-index: 20;
+}
+.footer div  h1,h5{
+ font-style: 18px;
+ line-height: 28px;
+ font-weight: 500;
+}
+.footer {
+    background-color: #E8E8EA;
+}
+.footer ul li{
+    margin-left: -30px;
+}
+.footer{
+padding-top: 100px ;
+height: 500px;
+
+}
+.footer p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #696A75;
+    padding-top: 10px;
+}
+.footer ul li a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #696A75;
+    margin-top: 10px;
+}
+.footer form{
+    align-items: center;
+}
+.footer form i{
+    color: #696A75;
+    font-size: 18px;
+    margin-left: -25px;
+    
 }
