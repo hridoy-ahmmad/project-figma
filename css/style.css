@@ -59,8 +59,7 @@ a,li{
 }
 .banner{
     position: relative;
-    width: 100%;
-    height: auto;
+   
 }
 .hero-card{
     height: 300px;
@@ -91,6 +90,8 @@ a,li{
 }
 .hero-img{
     z-index: 0;
+    width: 100%;
+    height: auto;
 }
 
 .hero img{
